@@ -12,7 +12,7 @@ public class Gui extends JFrame {
 		
 		//ボタン作成
 		JButton btn1 = new JButton("ボタン1");
-		add(btn1);
+		add(btn1); 
 	
 		//クリック時の処理
 		btn1.addActionListener(new ActionListener(){
